@@ -1,0 +1,27 @@
+project: gopro file forward
+objective: automatically move files from gopro to external harddrive.
+current status: planning stage
+
+## steps
+
+sense that the gopro has been connected and has new files to download
+	directory for external devices is /media
+	shell script checks to see if devices are connected
+
+make sure the external harddrive is connected to the pi
+
+check to see that there is enough memory on the harddrive
+	df -h should show how much space is in the directory
+	may need to tweek it a bit
+
+make a new file folder in the external harddrive with the current date
+	inside the dated folder make folders for photos and movies
+
+move the photos to the photo folder
+
+move the movies to the movie folder
+
+make sure files have been removed from gopro
+
+
+
